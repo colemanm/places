@@ -433,5 +433,5 @@ shops = Points(
 addresses = UnionView(
   name = 'addresses',
   fields = address_tags,
-  mappings = [transportation, education, entertainment, food_and_drink, leisure, public_services, medical]
+  mappings = [transportation, education, entertainment, food_and_drink, leisure, public_services, medical, shops],
 )
